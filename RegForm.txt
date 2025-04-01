@@ -1,0 +1,11 @@
+@controller
+class regForm
+{
+
+@GetMapping("/regForm")
+public String hanlder()
+{
+
+	return "register";
+}
+}

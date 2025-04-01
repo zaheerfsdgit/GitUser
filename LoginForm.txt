@@ -1,0 +1,11 @@
+@controller
+class loginForm
+{
+
+@GetMapping("/logForm")
+public String hanlder()
+{
+
+	return "login";
+}
+}
